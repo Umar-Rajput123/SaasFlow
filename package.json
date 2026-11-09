@@ -1,0 +1,14 @@
+{
+  "name": "saasflow",
+  "version": "1.0.0",
+  "description": "SaaSFlow — Production-Style SaaS Project Management Platform (MERN)",
+  "scripts": {
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "test:backend": "cd backend && node test-suite.js",
+    "build:client": "cd frontend && npm run build"
+  },
+  "keywords": ["saas", "project-management", "mern", "react", "express", "mongodb"],
+  "author": "SaaSFlow Team",
+  "license": "MIT"
+}
